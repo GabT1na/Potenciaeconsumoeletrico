@@ -6,9 +6,11 @@ public class Main {
     double tempo = 5;
     double dias = 30;
     double consumo =(potencia * tempo * dias);
+    System.out.println("O resultado da primeira multiplicação é de:");
     System.out.println(consumo);
+    System.out.println();
     double consumo2 = (consumo / 1000);
-  
+    System.out.println("O consumo mensal foi de:");
     System.out.println(consumo2);
   }
 }
