@@ -2,6 +2,8 @@ public class Main {
   public static void main(String[] args) {
     System.out.println("Programa criado para calcular a Potência e o Consumo Elétrico");
     System.out.println();
+    System.out.println("Uma Tv de 200Watts, fica ligada aproximadamente 5 horas diárias. Determine o consumo elétrico mensal da Tv.");
+    System.out.println ();
     double potencia = 200;
     double tempo = 5;
     double dias = 30;
